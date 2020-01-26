@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style src="css/dima-portfolio-style.css"/>
         <script src="jquery-3.4.1.js"/>
         <script src="js/include_html.js">
             includeHTML();
@@ -9,7 +10,9 @@
     </head>
     <body class="dima-root">
         <div class="dima-header">
-            <div custom-include-html="html/header.html"/>
+            <div custom-include-html="html/header.html">
+                <iframe src="html/header.html"/>    
+            </div>
             <?php include "html/header.html" ?>
         </div>
         <div class="dima-content">
