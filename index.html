@@ -1,16 +1,22 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <script src="jquery-3.4.1.js"/>
+        <script src="js/include_html.js">
+            includeHTML();
+        </script>
 
     </head>
     <body class="dima-root">
         <div class="dima-header">
-            <div w3-include-html="html/header.html"/>
+            <div custom-include-html="html/header.html"/>
+            <?php include "html/header.html" ?>
         </div>
         <div class="dima-content">
-            <div w3-include-html="html/content.html"/>
+            <div custom-include-html="html/content.html"/>
         </div>
         <div class="dima-footer">
-            <div w3-include-html="html/footer.html"/>
+            <div custom-include-html="html/footer.html"/>
         </div>
     </body>
 </html>
